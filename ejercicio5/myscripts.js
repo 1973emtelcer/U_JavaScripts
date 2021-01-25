@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 const dni = prompt('Tu DNI');
 
 console.log('dni',dni);
