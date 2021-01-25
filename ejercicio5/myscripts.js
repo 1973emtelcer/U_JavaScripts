@@ -9,5 +9,5 @@ if (dni < 0 || dni >99999999) {
     alert ('el número introducido no es correcto');
 } else {
   const letterSelected = letras[dni%23] ;
-  alert('Tu letra dek DNI es '+letterSelected);
+  alert('Tu letra del DNI es '+letterSelected);
 };
