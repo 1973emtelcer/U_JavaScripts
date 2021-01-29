@@ -1,5 +1,5 @@
 'use strict'
-const words = ["Environmental", "Systems", "Research","Institute"];
+const words = [`Environmental`, `Systems`, `Research`,`Institute`];
 
 const longest = words.reduce((acc, current) => {
     if (acc.length > current.length) {
@@ -9,4 +9,4 @@ const longest = words.reduce((acc, current) => {
     }
 });
 
-console.log ('La palabra más larga es ${longest}');
+console.log (`La palabra más larga es ${longest}`);
