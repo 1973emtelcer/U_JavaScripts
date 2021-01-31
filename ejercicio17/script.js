@@ -38,7 +38,7 @@ class Factura {
     }
     };
 }
-var elCliente = new Cliente ("Cliente 1", "",",");
+var elCliente = new Cliente ("Cliente 1","", "", "","");
 var losElementos =[new Elemento ("elemento1","1","5"), new Elemento ("elemento2","3","12")];
 var laFactura = new Factura(elCliente, losElementos);
 laFactura.muestraTotal();
